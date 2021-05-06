@@ -1,0 +1,14 @@
+:host {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  border: 1px solid silver;
+}
+
+div {
+  padding: 40px;
+}

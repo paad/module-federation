@@ -1,0 +1,18 @@
+<header>
+  <h2>Module Federation Demo</h2>
+</header>
+<p>The router dynamically loads modules from page-a and page-b.</p>
+<nav>
+  <ul>
+    <li>
+      <a routerLinkActive="active" [routerLink]="['/page-a']">Page A</a>
+    </li>
+    <li>
+      <a routerLinkActive="active" [routerLink]="['/page-b']">Page B</a>
+    </li>
+  </ul>
+</nav>
+<main>
+  <router-outlet></router-outlet>
+</main>
+

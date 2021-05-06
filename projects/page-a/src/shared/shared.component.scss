@@ -1,0 +1,16 @@
+:host {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: darkslategray;
+  color: #fff;
+  border: 1px solid silver;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  width: 350px;
+  text-align: center;
+}
